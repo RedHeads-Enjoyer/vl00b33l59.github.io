@@ -9,7 +9,7 @@ setInterval(function() {
 
 dance = document.getElementsByTagName("img")
 setInterval(function() {
-    for (let i = 0; i < dance.length - 1; i++) {
+    for (let i = 2; i < dance.length - 1; i++) {
         dance[i].style.top = Math.random() * 80 - 10 + "vh"
         dance[i].style.left = Math.random() * 80 + "vw"
         dance[i].style.transform = "rotate(" + Math.random() * 360 + "deg)"

@@ -67,3 +67,20 @@ img {
 #tt button {
     width: 70%;
 }
+
+.erasd1,
+.erasd2 {
+    position: absolute;
+    width: 0px;
+    bottom: 0;
+    right: 0;
+}
+
+.erasd1 {
+    left: 0;
+    transform: scale(-1, 1);
+}
+
+.bl9:hover ~ img {
+    width: 30vw;
+}
