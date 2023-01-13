@@ -3,7 +3,7 @@ setInterval(function() {
     a = Math.random() * 255
     b = Math.random() * 255
     c = Math.random() * 255
-    document.body.style.background = "rgb(" + a + ", " + b + ", " + c + ")";
+    document.querySelector('#ff').style.background = "rgb(" + a + ", " + b + ", " + c + ")";
     document.querySelector('#ss').style.color = "rgb(" + a + ", " + b + ", " + c + ")";
 },100)
 
@@ -15,3 +15,12 @@ setInterval(function() {
         dance[i].style.transform = "rotate(" + Math.random() * 360 + "deg)"
     }
 }, 500)
+
+document.body.addEventListener('mousemove', function() {
+    document.querySelector('#zxc').play()
+})
+
+function nazvanie() {
+    document.querySelector('#tt').style.display = 'none';
+    document.querySelector('#ff').style.display = 'block';
+}

@@ -1,9 +1,9 @@
 * {
     margin: 0;
+    user-select: none;
 }
 
 body {
-    transition: background 100ms;
     overflow: hidden;
 }
 
@@ -29,7 +29,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     filter: invert(1);
     font-size: 12vw;
-    user-select: none;
+
     transition: color 100ms;
     animation: rotate 0s linear infinite;
 }
@@ -38,9 +38,32 @@ img {
     position: absolute;
     transition: 500ms linear;
     width: calc(15vh + 15vw);
+    z-index: 1;
 }
 
 #jaba {
-    bottom: 0;
+    bottom: -20px;
     right: 0;
+}
+
+#ff {
+    width: 100vw;
+    height: 100vh;
+    transition: background 100ms;
+    z-index: 1;
+    display: none;
+}
+
+#tt {
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+#tt button {
+    width: 70%;
 }
