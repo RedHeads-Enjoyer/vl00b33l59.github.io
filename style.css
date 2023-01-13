@@ -37,4 +37,5 @@ p {
 img {
     position: absolute;
     transition: 500ms linear;
+    width: calc(15vh + 15vw);
 }
