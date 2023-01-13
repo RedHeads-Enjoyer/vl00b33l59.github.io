@@ -16,10 +16,6 @@ setInterval(function() {
     }
 }, 500)
 
-document.body.addEventListener('mousemove', function() {
-    document.querySelector('#zxc').play()
-})
-
 function nazvanie() {
     document.querySelector('#tt').style.display = 'none';
     document.querySelector('#ff').style.display = 'block';
