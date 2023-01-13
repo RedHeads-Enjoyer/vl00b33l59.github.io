@@ -16,7 +16,9 @@ setInterval(function() {
     }
 }, 500)
 
+
 function nazvanie() {
     document.querySelector('#tt').style.display = 'none';
     document.querySelector('#ff').style.display = 'block';
+    document.querySelector('#zxc').play()
 }
