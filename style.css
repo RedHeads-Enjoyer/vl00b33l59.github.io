@@ -29,6 +29,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     filter: invert(1);
     font-size: 12vw;
+    z-index: 4;
 
     transition: color 100ms;
     animation: rotate 0s linear infinite;
@@ -36,14 +37,19 @@ p {
 
 img {
     position: absolute;
-    transition: 500ms linear;
-    width: calc(15vh + 15vw);
+    transition: 400ms ease-in-out;
+    width: calc(12vh + 12vw);
     z-index: 1;
 }
 
 #jaba {
     bottom: -20px;
     right: 0;
+}
+
+#eti {
+    bottom: 0;
+    left: 20px;
 }
 
 #ff {
