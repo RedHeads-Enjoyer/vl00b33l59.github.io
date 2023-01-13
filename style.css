@@ -39,3 +39,8 @@ img {
     transition: 500ms linear;
     width: calc(15vh + 15vw);
 }
+
+#jaba {
+    bottom: 0;
+    right: 0;
+}
