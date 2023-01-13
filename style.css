@@ -37,7 +37,7 @@ p {
 
 img {
     position: absolute;
-    transition: 400ms ease-in-out;
+    transition: 400ms linear;
     width: calc(12vh + 12vw);
     z-index: 1;
 }

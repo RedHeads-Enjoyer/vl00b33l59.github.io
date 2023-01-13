@@ -23,7 +23,7 @@ setInterval(function() {
     dance[i].style.left = Math.random() * 80 + "vw"
     dance[i].style.transform = "rotate(" + Math.random() * 360 + "deg)"
     i += 1
-}, 60)
+}, 70)
 
 
 function nazvanie() {
